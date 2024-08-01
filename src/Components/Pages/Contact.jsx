@@ -19,7 +19,7 @@ const Contact = () => {
                     <div className='underline mx-auto'></div>
                 </div>
                 <div className="col-md-4 text-center">
-                    <h1>Vision</h1>
+                    <h1>our Vision</h1>
                   
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus atque a ratione enim corrupti adipisci exercitationem molestiae natus voluptatibus! Ipsa, vitae? Iusto accusamus repellendus ad libero animi non perferendis fuga laudantium natus?</p>
                 </div>

@@ -14,7 +14,7 @@ const Home = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 text-center">
-                    <h1 className='section-main-heading'>Our Company</h1>
+                    <h1 className='section-main-heading'> Company</h1>
                     <div className='underline mx-auto'></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur esse, odit numquam obcaecati, eius eos ullam doloribus rerum cupiditate necessitatibus aperiam molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sit, aperiam a, vel error ipsum maiores nihil veritatis non rem repudiandae alias optio.</p>
                     <Link to="/About" className='btn btn-primary  shadow'>Read More</Link>
