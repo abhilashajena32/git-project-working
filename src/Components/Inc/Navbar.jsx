@@ -1,5 +1,6 @@
 import React from 'react';
-import{Link} from "react-router-dom"
+import{Link} from "react-router-dom";
+import download1 from "../Images/download1.png"
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg bg-body-tertiary ">
       
 
-    <a className="navbar-brand" href="#">Techno Web</a>
+    <div className='Navbar-image'><img src={download1} alt="" /></div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -25,6 +26,10 @@ const Navbar = () => {
         </li>
         <li className="nav-item" >
         <Link className="nav-link active " to="/Contact">Contact</Link>
+ 
+        </li>
+        <li className="nav-item" >
+        <Link className="nav-link active " to="/Register">Register</Link>
  
         </li>
         

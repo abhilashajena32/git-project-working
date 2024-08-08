@@ -18,3 +18,20 @@
 .bg-c-light{
   background-color: #f2f2f2;
 }
+.Navbar-image img{
+  height:50px;
+  width:80px;
+ 
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.nav-link {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+
+}
