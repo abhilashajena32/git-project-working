@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from  "react-router-dom"
 
 const Register = () => {
     return(
@@ -17,16 +18,16 @@ const Register = () => {
                 <input className='form-control' type="password" placeholder='enter password' />
             </div>
             <div className='mb-2'>
-                <input type="checkbox" className='form-chekck-input'  />
-                <label htmlFor="checkbox" className='custom-input-label'>Remember me</label>
+                <input type="checkbox" className='form-input'  />
+                <label htmlFor="checkbox" className='custom-input-label ms-2'> I accept terms & conditions</label>
        
             </div>
             <div className=' d-grid '>
-                <button className='btn btn-primary'> submit</button>
+                <button className='btn btn-primary'> log in</button>
             
             </div>
             <div>
-                <p>Forget <a href="*">password</a> ?<a href="*">sign up</a></p>
+                <p className=' mt-2 text-right'>Forget <a href="">password</a> ?<Link to="/Create" className='ms-2'>create account</Link></p>
             </div>
 
 
@@ -37,4 +38,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default Register;
