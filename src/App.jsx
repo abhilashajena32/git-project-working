@@ -6,6 +6,7 @@ import Contact from './Components/Pages/Contact';
 import Navbar from './Components/Inc/Navbar';
 import Register from './Components/Pages/Register';
 import Create from "./Components/Pages/Create";
+import Readmore from './Components/Pages/Readmore';
 
 // import Footer from "./Components/Pages/Footer"
 import { BrowserRouter as Router ,Route,Routes} from 'react-router-dom';
@@ -26,11 +27,13 @@ const App = () => {
      </Routes> */}
 
      <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path="/About" element={<About/>}/>
+      
+  
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="/Register" element={<Register/>}/>
       <Route path="/Create" element={<Create/>}/>
+      <Route path="/About" element={<About/>}/>
+      <Route path='/' element={<Home/>}/>
      </Routes>
     </div>
     {/* <Footer/> */}

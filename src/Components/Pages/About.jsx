@@ -20,10 +20,10 @@ const About = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 text-center">
-                    <h1 className='section-main-heading'>our Company</h1>
+                    <h1 className='section-main-heading'>aug Company</h1>
                     <div className='underline mx-auto'></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur esse, odit numquam obcaecati, eius eos ullam doloribus rerum cupiditate necessitatibus aperiam molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sit, aperiam a, vel error ipsum maiores nihil veritatis non rem repudiandae alias optio.</p>
-                    <Link to="/About" className='btn btn-primary  shadow'>Read More</Link>
+                    <Link to="/Readmore" className='btn btn-primary  shadow'>Read More</Link>
 
                 </div>
             </div>
