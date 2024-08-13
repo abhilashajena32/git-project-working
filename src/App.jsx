@@ -27,13 +27,15 @@ const App = () => {
      </Routes> */}
 
      <Routes>
+     <Route path='/' element={<Home/>}/>
       
   
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="/Register" element={<Register/>}/>
       <Route path="/Create" element={<Create/>}/>
       <Route path="/About" element={<About/>}/>
-      <Route path='/' element={<Home/>}/>
+     
+      <Route path='/Readmore' element={<Readmore/>}/>
      </Routes>
     </div>
     {/* <Footer/> */}
