@@ -1,4 +1,5 @@
 import React from 'react';
+import Readmore from './Readmore';
 import {Link} from "react-router-dom";
 
 const About = () => {

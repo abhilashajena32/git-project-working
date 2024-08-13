@@ -12,4 +12,4 @@ const Readmore = () => {
   )
 }
 
-export default Readmore
+export default Readmore;
